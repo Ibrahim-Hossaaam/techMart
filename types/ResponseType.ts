@@ -1,7 +1,7 @@
-import { IMetadata } from "../src/interfaces/Metadata";
+import { Metadata } from "../src/interfaces/Metadata";
 
 export type ResponseType<T> = {
   results: number;
-  metadata: IMetadata;
+  metadata: Metadata;
   data: T[];
 };
